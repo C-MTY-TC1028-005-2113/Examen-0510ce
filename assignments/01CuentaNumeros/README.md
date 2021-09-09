@@ -1,12 +1,16 @@
 ![Tec de Monterrey](../../images/logotecmty.png)
-# Cuenta números
+# Sistema de Ecuaciones
 
 Modifica el programa que se encuentra en la carpeta `src` que se llama
 `exercise.py` y que contiene el siguiente código:
 
 ```python
+def sistema_ecuaciones( ):
+  pass
+
 def main():
   #escribe tu código abajo de esta línea
+  pass
 
 if __name__ == '__main__':
     main()
@@ -14,59 +18,49 @@ if __name__ == '__main__':
 La línea `#escribe tu código abajo de esta línea` es un comentario,
 el programa la va a ignorar al ejecutarse.
 
-Agrega una nueva línea abajo del comentario con el código para que lea un número positivo n,
-e imprima todos los números en orden desde el 1 hasta n.
-Cada uno de los números debe ser impreso en una linea por separado.
+Lleva a cabo el análisis, diseño y codificación en lenguaje Python de una función llamada sistema_ecuaciones( )
+La función lee los valores de los coeficientes a,b,c,d,e y f  de las
+2 ecuaciones:
 
-#### Entrada
-Un número entero positivo n
+![Tec de Monterrey](../../images/ecuaciones.png)
 
-#### Salida
-Los números enteros desde 1 hasta n, uno en cada renglón
+la función calcula los valores de y ,  x,  posteriormente despliega el valor de x, y
+Añade tu análisis del problema dentro del archivo
+
+#### Entradas:
+#### Salidas:
+Mensajes para ingresar los datos de Entrada:
+Mensajes para desplegar los datos de salida:
+#### Procesos:
 
 #### NOTA IMPORTANTE:
-Tu programa NO debe incluir ningún mensaje para pedir los datos y la salida debe coincidir exactamente con el formato y/o tipo de dato que se te pide como salida.
+Tu programa debe incluir los mensaje para pedir los datos y
+la salida debe coincidir exactamente con el formato y/o tipo de dato que se te pide como salida.
 
-La salida del programa debe de ser exactamente de la siguiente forma:
+2 Ejemplos de Ejecución del programa:
 
 ```
-5
-1
-2
-3
-4
-5
+a = 3
+b = 1
+c = 22
+d = 4
+e = -3
+f = -1
+x = 5.0
+y = 7.0
 
 
 
-15
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
 
-10
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+a = 2
+b = 3
+c = 5
+d = 5
+e = 6
+f = 4
+x = -6.0
+y = 5.666666666666667
+
 
 ```
 
