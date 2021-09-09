@@ -6,11 +6,11 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama
 
 ```python
 def sistema_ecuaciones( ):
-  pass
+    pass
 
 def main():
-  #escribe tu código abajo de esta línea
-  pass
+    #escribe tu código abajo de esta línea
+    pass
 
 if __name__ == '__main__':
     main()
@@ -24,13 +24,13 @@ La función lee los valores de los coeficientes a,b,c,d,e y f  de las
 
 ![Tec de Monterrey](../../images/ecuaciones.png)
 
-la función calcula los valores de y ,  x,  posteriormente despliega el valor de x, y
+la función calcula los valores de y ,  x,   y posteriormente despliega el valor de *x, y*
 Añade tu análisis del problema dentro del archivo
 
 #### Entradas:
 #### Salidas:
-Mensajes para ingresar los datos de Entrada:
-Mensajes para desplegar los datos de salida:
+* Mensajes para ingresar los datos de Entrada:
+* Mensajes para desplegar los datos de salida:
 #### Procesos:
 
 #### NOTA IMPORTANTE:
