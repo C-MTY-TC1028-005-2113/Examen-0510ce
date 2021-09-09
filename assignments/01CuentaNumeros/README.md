@@ -24,8 +24,9 @@ La función lee los valores de los coeficientes a,b,c,d,e y f  de las
 
 ![Tec de Monterrey](../../images/ecuaciones.png)
 
-la función calcula los valores de y ,  x,   y posteriormente despliega el valor de *x, y*
-Añade tu análisis del problema dentro del archivo
+la función calcula los valores de y ,  x,   
+* y posteriormente despliega el valor de *x, y*
+* Añade tu análisis del problema dentro del archivo
 
 #### Entradas:
 #### Salidas:
@@ -34,8 +35,8 @@ Añade tu análisis del problema dentro del archivo
 #### Procesos:
 
 #### NOTA IMPORTANTE:
-Tu programa debe incluir los mensaje para pedir los datos y
-la salida debe coincidir exactamente con el formato y/o tipo de dato que se te pide como salida.
+* Tu programa debe incluir los mensaje para pedir los datos y
+* la salida debe coincidir exactamente con el formato y/o tipo de dato que se te pide como salida.
 
 2 Ejemplos de Ejecución del programa:
 
