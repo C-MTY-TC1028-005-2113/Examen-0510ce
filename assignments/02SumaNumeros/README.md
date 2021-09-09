@@ -5,11 +5,15 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama
 `exercise.py` y que contiene el siguiente código:
 
 ```python
-def contar_diagnosticos():
+def contar_diagnosticos(n):
     pass
+    
 def main():
+    #Leer la cantidad de diagnosticos
+    
     #escribe la llamada a la función contar_diagnosticos
     pass
+    
 if __name__ == '__main__':
     main()
 ```
@@ -17,41 +21,38 @@ if __name__ == '__main__':
 La línea `#escribe tu código abajo de esta línea` es un comentario,
 el programa la va a ignorar al ejecutarse.
 
-Lleva a cabo el análisis, diseño y codificación en lenguaje Python de una función llamada  
-La función recibe como parámetro de entrada la cantidad de diagnósticos que se van a procesar,
-dentro de la función se ingresan los datos de  los diagnósticos de pacientes de un consultorio médico,
-estos datos son de tipo string, la función debe calcular la cantidad de casos de COVID_19,
-la cantidad de casos de DELTA y la cantidad de casos de pacientes SANOS:
+Lleva a cabo el análisis, diseño y codificación en lenguaje Python de una función llamada  contar_diagnosticos() y
+de la función main( )
 
-- C o c para un paciente diagnosticado con COVID_19
-- D o d para un paciente diagnosticado con DELTA
-- S o s para un paciente SANO
+La función  contar_diagnosticos recibe como parámetro de entrada la cantidad de diagnósticos que se van a procesar,
+dentro de la función se ingresan los datos de  los diagnósticos de pacientes de un consultorio médico,
+estos datos son de tipo string, la función debe calcular:
+* la cantidad de casos de COVID_19,
+* la cantidad de casos de DELTA y 
+* la cantidad de casos de pacientes SANOS:
+
+Los datos que se ingresan son de tipo string - una sola letra indicando el diagnóstico:
+- C o c para un paciente diagnosticado con *COVID_19*
+- D o d para un paciente diagnosticado con *DELTA*
+- S o s para un paciente *SANO*
 
 La función debe calcular y desplegar:
 - total de casos de COVID_19
 - total de casos de  DELTA
 - total de casos de  SANO(s)
 
-Nota importante - en caso de que no existan casos de alguna opción no se muestra nada.
+#### Nota importante - en caso de que no existan casos de alguna opción no se muestra nada sobre ese caso.
 
-# función contar_ diagnosticos
-def contar_diagnosticos():
-
-# llamada a función contar_ diagnosticos desde el main( )
-contar_diagnosticos()
-
-
-Añade tu análisis del problema dentro del archivo
-
+# Añade tu análisis del problema dentro del archivo
 #### Entradas:
 #### Salidas:
-Mensajes para ingresar los datos de Entrada:
-Mensajes para desplegar los datos de salida:
+* Mensajes para ingresar los datos de Entrada:
+* Mensajes para desplegar los datos de salida:
 #### Procesos:
 #### NOTA IMPORTANTE:
 
 Tu programa debe incluir los mensaje para pedir los datos y
-la salida debe coincidir exactamente con el formato y/o tipo de dato que se te pide como salida.
+la salida deben coincidir exactamente con el formato y/o tipo de dato que se te pide como salida.
 
 4 Ejemplos de Ejecución del programa:
 
