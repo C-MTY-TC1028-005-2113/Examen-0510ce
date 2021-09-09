@@ -24,4 +24,6 @@ Yo _______________________________________________________, me comprometo a
 llevar a cabo mi examen en forma individual.
 
 
+# 50 Pts ejercicio 1
+# 50 Pts ejercicio 2
 
