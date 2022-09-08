@@ -1,14 +1,21 @@
-# función contar_ diagnosticos
-def contar_diagnosticos(n):
+# Nombre
+# Matricula
+# Fecha
+# Carrera
+
+def colegiatura_antes_descuento(tipo_curso, cantidad_cursos):
     pass
-
-
-def main( ):
-    # 1º Leer la cantidad de diagnosticos
-    n = int(input("Ingresa el total de diagnosticos: "))
-
-    # Llamar a la función contar_diagnosticos
+    
+def descuento_colegiatura(colegiatura, tipo_alumno):
     pass
+    
+def main():
+    #Leer 
+    
+    # Llamar a las funciones
+    pass
+    
+    # Desplegar los resultados
 
 if __name__=='__main__':
     main()
