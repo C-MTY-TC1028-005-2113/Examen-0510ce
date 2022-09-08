@@ -5,92 +5,102 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama
 `exercise.py` y que contiene el siguiente código:
 
 ```python
-def contar_diagnosticos(n):
+def colegiatura_antes_descuento(tipo_curso, cantidad_cursos):
+    pass
+    
+def descuento_colegiatura(colegiatura, tipo_alumno):
     pass
     
 def main():
-    #Leer la cantidad de diagnosticos
+    #Leer 
     
-    #escribe la llamada a la función contar_diagnosticos
+    # Llamar a las funciones
     pass
+    
+    # Desplegar los resultados
     
 if __name__ == '__main__':
     main()
 ```
+Lleva a cabo el análisis, diseño y codificación en lenguaje Python.
 
-La línea `#escribe tu código abajo de esta línea` es un comentario,
-el programa la va a ignorar al ejecutarse.
+En una secundaria se ofrecen 3 tipos de cursos: 
+- U - UF
+- B - BLOQUES
+- I - INTERCAMBIO
 
-Lleva a cabo el análisis, diseño y codificación en lenguaje Python de una función llamada  contar_diagnosticos() y
-de la función main( )
+Tiene 2 tipos de alumnos: 
+- L - Locales 
+- F - Foraneos.
 
-La función  contar_diagnosticos recibe como parámetro de entrada la cantidad de diagnósticos que se van a procesar,
-dentro de la función se ingresan los datos de  los diagnósticos de pacientes de un consultorio médico,
-estos datos son de tipo string, la función debe calcular:
-* la cantidad de casos de COVID_19,
-* la cantidad de casos de DELTA y 
-* la cantidad de casos de pacientes SANOS:
+El precio es el siguiente para cada tipo de curso:
+- UF  $6,500  DLS c/u
+- BLOQUES $8,900 DLS c/u
+- INTERCAMBIO $30,550  DLS c/u
 
-Los datos que se ingresan son de tipo string - una sola letra indicando el diagnóstico:
-- C o c para un paciente diagnosticado con *COVID_19*
-- D o d para un paciente diagnosticado con *DELTA*
-- S o s para un paciente *SANO*
+Por este regreso a clases la Secundaria ha decidido dar un descuento del 30% a los <b>alumnos Locales</b>
 
-La función debe calcular y desplegar:
-- total de casos de COVID_19
-- total de casos de  DELTA
-- total de casos de  SANO(s)
+Además ha decidido aplicar la siguiente política de descuentos a los
+<b> alumnos Foraneos </b>:
+- Si su colegiatura es superior o igual a $21,000 e inferior a $70,000 tendrá un 12% de descuento en la colegiatura.
+- Si su colegiatura es superior o igual a $70,000  tendrán un 27% de descuento en la colegiatura.
 
-#### Nota importante - en caso de que no existan casos de alguna opción no se muestra nada sobre ese caso.
+Escribe un programa que lea el tipo de curso (que es una letra mayúscula que puede ser U, B, I),
+el tipo de alumno(que es una letra mayúscula que puede ser L o F) si los datos ingresados son correctos también 
+se debe leer la cantidad de cursos en los que se va a inscribir (que es un número entero). 
+Supón que solo se va a inscribir en un mismo tipo de curso.
 
-# Añade tu análisis del problema dentro del archivo
-#### Entradas:
-#### Salidas:
-* Mensajes para ingresar los datos de Entrada:
-* Mensajes para desplegar los datos de salida:
-#### Procesos:
-#### NOTA IMPORTANTE:
+Si se ingresan datos incorrectos en el tipo de curso o en el tipo de alumno el programa
+debe desplegar "Datos Incorrectos" y no debe leer la cantidad de cursos.
 
-Tu programa debe incluir los mensaje para pedir los datos y
-la salida deben coincidir exactamente con el formato y/o tipo de dato que se te pide como salida.
+####  El programa debe tener las siguientes funciones:
 
-4 Ejemplos de Ejecución del programa:
+- Función llamada __colegiatura_antes_descuento__ que recibe como parámetros: tipo_curso y la cantidad_cursos:  
+La función retorna el monto de la colegiatura a pagar antes del descuento.
 
-```
-Ingresa el total de diagnosticos: 6
-Ingresa diagnostico: c
-Ingresa diagnostico: d
-Ingresa diagnostico: s
-Ingresa diagnostico: c
-Ingresa diagnostico: d
-Ingresa diagnostico: s
-Casos Delta = 2
-Casos Covid-19 = 2
-Casos Sanos = 2
+- Función llamada __descuento_colegiatura__ que recibe como parámetros: el colegiatura antes del descuento y el tipo_alumno:  
+La función retorna el monto del descuento que se le hará al alumno.
+
+Si los datos ingresados son adecuados el programa debe calcular   
+y mostrar los datos de salida en formato entero.
 
 
-Ingresa el total de diagnosticos: 1
-Ingresa diagnostico: c
-Casos Covid-19 = 1
-
-
-Ingresa el total de diagnosticos: 8
-Ingresa diagnostico: C
-Ingresa diagnostico: D
-Ingresa diagnostico: S
-Ingresa diagnostico: c
-Ingresa diagnostico: D
-Ingresa diagnostico: s
-Ingresa diagnostico: s
-Ingresa diagnostico: s
-Casos Delta = 2
-Casos Covid-19 = 2
-Casos Sanos = 4
-
-
-Ingresa el total de diagnosticos: 0
+La salida del programa debe de ser exactamente de la siguiente forma:
 
 ```
+Tipo de cursos: U
+Tipo de alumno: F
+Cantidad de cursos: 10
+Colegiatura $65000 DLS
+Descuento  $7800 DLS
+Total a pagar $57200 DLS
+
+Tipo de cursos: B
+Tipo de alumno: F
+Cantidad de cursos: 10
+Colegiatura $89000 DLS
+Descuento  $24030 DLS
+Total a pagar $64970 DLS
+
+Tipo de cursos: U
+Tipo de alumno: L
+Cantidad de cursos: 10
+Colegiatura $65000 DLS
+Descuento  $19500 DLS
+Total a pagar $45500 DLS
+
+Tipo de cursos: I
+Tipo de alumno: L
+Cantidad de cursos: 10
+Colegiatura $305500 DLS
+Descuento  $91650 DLS
+Total a pagar $213850 DLS
+
+Tipo de cursos: juego
+Tipo de alumno: inteligente
+Datos incorrectos
+
+
 
 **Nota:** No te preocupes por esta parte del código
 `if __name__ == '__main__':` por el momento.
