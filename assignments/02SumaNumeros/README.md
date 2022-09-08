@@ -53,6 +53,8 @@ Supón que solo se va a inscribir en un mismo tipo de curso.
 Si se ingresan datos incorrectos en el tipo de curso o en el tipo de alumno el programa
 debe desplegar "Datos Incorrectos" y no debe leer la cantidad de cursos.
 
+Si se ingresa en cantidad de cursos un valor inferior a 1 se debe desplegar "Cantidad de cursos incorrecta"
+
 ####  El programa debe tener las siguientes funciones:
 
 - Función llamada __colegiatura_antes_descuento__ que recibe como parámetros: tipo_curso y la cantidad_cursos:  
@@ -99,6 +101,11 @@ Total a pagar $213850 DLS
 Tipo de cursos: juego
 Tipo de alumno: inteligente
 Datos incorrectos
+
+Tipo de cursos: I
+Tipo de alumno: L
+Cantidad de cursos: 0
+Cantidad de cursos incorrecta
 
 
 
