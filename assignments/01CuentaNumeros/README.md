@@ -1,13 +1,10 @@
 ![Tec de Monterrey](../../images/logotecmty.png)
-# Sistema de Ecuaciones
+# Sistema de Ecuaciones - básico
 
 Modifica el programa que se encuentra en la carpeta `src` que se llama
 `exercise.py` y que contiene el siguiente código:
 
 ```python
-def sistema_ecuaciones( ):
-    pass
-
 def main():
     #escribe tu código abajo de esta línea
     pass
@@ -15,23 +12,24 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+
 La línea `#escribe tu código abajo de esta línea` es un comentario,
 el programa la va a ignorar al ejecutarse.
 
-Lleva a cabo el análisis, diseño y codificación en lenguaje Python de una función llamada sistema_ecuaciones( )
-La función lee los valores de los coeficientes a,b,c,d,e y f  de las
-2 ecuaciones:
+Lleva a cabo el análisis, diseño y codificación en lenguaje Python de un programa que
+leea los valores de los coeficientes de las 2 ecuaciones:
+# - a,b,c,d,e y f  
 
 ![Tec de Monterrey](../../images/ecuaciones.png)
 
-la función calcula los valores de y ,  x,   
-* y posteriormente despliega el valor de *x, y*
-* Añade tu análisis del problema dentro del archivo
+El programa debe calcular los valores de  y ,  x con las 2 fórmulas anteriores.
+*  posteriormente  el programa debe desplegar el valor de *x, y*
 
 #### Entradas:
+los coeficinetes de las 2 ecuaciones : a,b,c,d,e y f
 #### Salidas:
-* Mensajes para ingresar los datos de Entrada:
-* Mensajes para desplegar los datos de salida:
+* Mensajes para ingresar los datos de Entrada
+* Mensajes para desplegar x, y
 #### Procesos:
 
 #### NOTA IMPORTANTE:
@@ -40,7 +38,9 @@ la función calcula los valores de y ,  x,
 
 2 Ejemplos de Ejecución del programa:
 
+
 ```
+Caso 1:
 a = 3
 b = 1
 c = 22
@@ -52,7 +52,7 @@ y = 7.0
 
 
 
-
+Caso 2:
 a = 2
 b = 3
 c = 5

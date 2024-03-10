@@ -1,6 +1,7 @@
-def sistema_ecuaciones( ):
-    pass
-
+# Nombre
+# Matricula
+# Fecha
+# Carrera
 
 def main():
   # llama a la función sistema_ecuaciones

@@ -7,82 +7,66 @@
 
 input_values = [
       (
-        ["U","F","10"],
-        ["Tipo de cursos: ", "Tipo de alumno: ", "Cantidad de cursos: ", 
-         "Colegiatura $65000 DLS", "Descuento $7800 DLS", "Total a pagar $57200 DLS"],
+        ["UF","F","10"],
+        ["Cursos: ", "Alumno: ", "Cantidad: ", "Total $45500 DLS"],
         "Revisa que ingresastelos tipos de datos correctos, revisa que los datos de salida sean enteros\
         revisa los espacios"
     ),
     (
-        ["B","F","10"],
-        ["Tipo de cursos: ", "Tipo de alumno: ", "Cantidad de cursos: ",
-         "Colegiatura $89000 DLS", "Descuento $24030 DLS", "Total a pagar $64970 DLS"],
+        ["BL","F","10"],
+        ["Cursos: ", "Alumno: ", "Cantidad: ", "Total $62300 DLS"],
         "Revisa que ingresastelos tipos de datos correctos, revisa que los datos de salida sean enteros\
         revisa los espacios"
     ),
-    (
-        ["I","F","10"],
-        ["Tipo de cursos: ", "Tipo de alumno: ", "Cantidad de cursos: ",
-        "Colegiatura $305500 DLS", "Descuento $82485 DLS", "Total a pagar $223015 DLS"],
-         "Revisa que ingresastelos tipos de datos correctos, revisa que los datos de salida sean enteros\
-        revisa los espacios"
-    ),
-         
-         
+
+
+
    (
-        ["U","L","10"],
-        ["Tipo de cursos: ", "Tipo de alumno: ", "Cantidad de cursos: ", 
-         "Colegiatura $65000 DLS", "Descuento $19500 DLS","Total a pagar $45500 DLS"],
+        ["UF","L","10"],
+        ["Cursos: ", "Alumno: ", "Cantidad: ", "Total $65000 DLS"],
         "Revisa que ingresastelos tipos de datos correctos, revisa que los datos de salida sean enteros\
         revisa los espacios"
     ),
-    
+
     (
-        ["B","L","10"],
-        ["Tipo de cursos: ", "Tipo de alumno: ", "Cantidad de cursos: ",
-         "Colegiatura $89000 DLS", "Descuento $26700 DLS", "Total a pagar $62300 DLS"],
+        ["BL","L","10"],
+        ["Cursos: ", "Alumno: ", "Cantidad: ", "Total $89000 DLS"],
         "Revisa que ingresastelos tipos de datos correctos, revisa que los datos de salida sean enteros\
         revisa los espacios"
     ),
-    
-    (
-        ["I","L","10"],
-        ["Tipo de cursos: ", "Tipo de alumno: ", "Cantidad de cursos: ",
-         "Colegiatura $305500 DLS", "Descuento $91650 DLS", "Total a pagar $213850 DLS"],
-         "Revisa que ingresastelos tipos de datos correctos, revisa que los datos de salida sean enteros\
-        revisa los espacios"
-    ),
-    
+
+
+
       (
         ["buenisimo","buenisimo"],
-        ["Tipo de cursos: ", "Tipo de alumno: ",  "Datos incorrectos"],
+        ["Cursos: ", "Alumno: ",  "Datos Incorrectos"],
          "No debes leer la cantidad de cursos, \
          Revisa que ingresaste los tipos de datos correctos, revisa que los datos de salida sean enteros\
         revisa los espacios"
     ),
-    
+
       (
        ["cocina","chef"],
-        ["Tipo de cursos: ", "Tipo de alumno: ",  "Datos incorrectos"],
+        ["Cursos: ", "Alumno: ",  "Datos Incorrectos"],
          "No debes leer la cantidad de cursos, \
          Revisa que ingresaste los tipos de datos correctos, revisa que los datos de salida sean enteros\
         revisa los espacios"
     ),
        (
-       ["I","L","-10"],
-        ["Tipo de cursos: ", "Tipo de alumno: ",  "Cantidad de cursos: ","Cantidad de cursos incorrecta"],
+       ["UF","L","-10"],
+        ["Cursos: ", "Alumno: ", "Cantidad: ","Cantidad de cursos incorrecta"],
          "La cantidad de cursos debe ser mayor a 0, \
          Revisa que ingresaste los tipos de datos correctos, revisa que los datos de salida sean enteros\
         revisa los espacios"
     ),
-    
+
      (
-       ["I","L","0"],
-        ["Tipo de cursos: ", "Tipo de alumno: ",  "Cantidad de cursos: ","Cantidad de cursos incorrecta"],
+       ["UF","L","0"],
+        ["Cursos: ", "Alumno: ", "Cantidad: ","Cantidad de cursos incorrecta"],
          "La cantidad de cursos debe ser mayor a 0, \
          Revisa que ingresaste los tipos de datos correctos, revisa que los datos de salida sean enteros\
         revisa los espacios"
     )
-    
-    
+
+
 ]

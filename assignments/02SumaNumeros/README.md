@@ -1,113 +1,103 @@
 ![Tec de Monterrey](../../images/logotecmty.png)
-# Suma números
+# Secundaria X - condicionales y funciones
 
 Modifica el programa que se encuentra en la carpeta `src` que se llama
 `exercise.py` y que contiene el siguiente código:
 
 ```python
-def colegiatura_antes_descuento(tipo_curso, cantidad_cursos):
+def calcula_colegiatura_con_descuento(tipo_curso, cantidad_cursos, tipo_alumno):
+    # función que calcula el total a pagar en base a los datos recibidos en los parámetros
+
+    # La función retorna el total a pagar ya con el descuento aplicado(solo si aplica)
     pass
-    
-def descuento_colegiatura(colegiatura, tipo_alumno):
-    pass
-    
+
+
 def main():
-    #Leer 
-    
-    # Llamar a las funciones
+    # 1. Leer los datos de entrada
+
+    # 2. Validar datos de entrada
+
+         # 3. si si son correctos llamar a  calcula_colegiatura_con_descuento(...)
+
+            # 4. Desplegar los resultados
     pass
-    
-    # Desplegar los resultados
-    
+
 if __name__ == '__main__':
     main()
 ```
 Lleva a cabo el análisis, diseño y codificación en lenguaje Python.
 
-En una secundaria se ofrecen 3 tipos de cursos: 
-- U - UF
-- B - BLOQUES
-- I - INTERCAMBIO
+En una secundaria se ofrecen 2 tipos de cursos:
+- UF - UNIDAD_FORMACION
+- BL - BLOQUE
 
-Tiene 2 tipos de alumnos: 
-- L - Locales 
+La secundaria tiene 2 tipos de alumnos:
+- L - Locales
 - F - Foraneos.
 
 El precio es el siguiente para cada tipo de curso:
 - UF  $6,500  DLS c/u
-- BLOQUES $8,900 DLS c/u
-- INTERCAMBIO $30,550  DLS c/u
+- BL  $8,900 DLS c/u
 
-Por este regreso a clases la Secundaria ha decidido dar un descuento del 30% a los <b>alumnos Locales</b>
+Por este regreso a clases la Secundaria ha decidido  dar el siguiente descuento a foráneos :
 
-Además ha decidido aplicar la siguiente política de descuentos a los
 <b> alumnos Foraneos </b>:
-- Si su colegiatura es superior o igual a $21,000 e inferior a $70,000 tendrá un 12% de descuento en la colegiatura.
-- Si su colegiatura es superior o igual a $70,000  tendrán un 27% de descuento en la colegiatura.
+- Si su colegiatura es superior o igual a $15,500 e inferior a $65,000 tendrá un 15% de descuento en la colegiatura.
+- Si su colegiatura es superior o igual a $65,000  tendrán un 30% de descuento en la colegiatura.
 
-Escribe un programa que lea el tipo de curso (que es una letra mayúscula que puede ser U, B, I),
-el tipo de alumno(que es una letra mayúscula que puede ser L o F) si los datos ingresados son correctos también 
-se debe leer la cantidad de cursos en los que se va a inscribir (que es un número entero). 
-Supón que solo se va a inscribir en un mismo tipo de curso.
 
-Si se ingresan datos incorrectos en el tipo de curso o en el tipo de alumno el programa
-debe desplegar "Datos Incorrectos" y no debe leer la cantidad de cursos.
+# Dentro de la función main() se debe hacer lo siguiente
 
-Si se ingresa en cantidad de cursos un valor inferior a 1 se debe desplegar "Cantidad de cursos incorrecta"
+1. leer el tipo de curso (que son 2 letras mayúsculas, puede ser : UF, BL),
+2. ler el tipo de alumno(que es una letra mayúscula, puede ser L o F)
+3. Verificar si se ingresan datos incorrectos en el tipo de curso o en el tipo de alumno  
 
-####  El programa debe tener las siguientes funciones:
+   el programa debe desplegar "Datos Incorrectos" y no debe leer la cantidad de cursos.  
 
-- Función llamada __colegiatura_antes_descuento__ que recibe como parámetros: tipo_curso y la cantidad_cursos:  
-La función retorna el monto de la colegiatura a pagar antes del descuento.
+   Si todos los datos son correctos:  
 
-- Función llamada __descuento_colegiatura__ que recibe como parámetros: el colegiatura antes del descuento y el tipo_alumno:  
-La función retorna el monto del descuento que se le hará al alumno.
+     leer la cantidad de cursos en los que se va a inscribir (entero).   
 
-Si los datos ingresados son adecuados el programa debe calcular   
-y mostrar los datos de salida en formato entero.
+     Si la cantidad de cursos es inferior a 1 el programa debe desplegar   
 
+            "Cantidad de cursos incorrecta"   
+
+Si todos los datos ingresados son correctos el programa debe llamar a la función
+calcula_colegiatura_con_descuento( ...) que calcula y retorna el total a pagar de colegiatura(ya con despuento si es que aplica)
+el valor de retorno se debe desplegar en formato entero usando la función *round( )* sin decimales.
 
 La salida del programa debe de ser exactamente de la siguiente forma:
-
+Casos de ejecución del programa:
 ```
-Tipo de cursos: U
-Tipo de alumno: F
-Cantidad de cursos: 10
-Colegiatura $65000 DLS
-Descuento  $7800 DLS
-Total a pagar $57200 DLS
+Caso 1:
+Cursos: UF
+Alumno: F
+Cantidad: 10
+Total $45500 DLS
 
-Tipo de cursos: B
-Tipo de alumno: F
-Cantidad de cursos: 10
-Colegiatura $89000 DLS
-Descuento  $24030 DLS
-Total a pagar $64970 DLS
+Caso 2:
+Cursos: BL
+Alumno: F
+Cantidad: 10
+Total $62300 DLS
 
-Tipo de cursos: U
-Tipo de alumno: L
-Cantidad de cursos: 10
-Colegiatura $65000 DLS
-Descuento  $19500 DLS
-Total a pagar $45500 DLS
+Caso 3:
+Cursos: UF
+Alumno: L
+Cantidad: 10
+Total $65000 DLS
 
-Tipo de cursos: I
-Tipo de alumno: L
-Cantidad de cursos: 10
-Colegiatura $305500 DLS
-Descuento  $91650 DLS
-Total a pagar $213850 DLS
+Caso 4:
+Cursos: juego
+Alumno: inteligente
+Datos Incorrectos
 
-Tipo de cursos: juego
-Tipo de alumno: inteligente
-Datos incorrectos
-
-Tipo de cursos: I
-Tipo de alumno: L
-Cantidad de cursos: 0
+Caso 5:
+Cursos: UF
+Alumno: L
+Cantidad: 0
 Cantidad de cursos incorrecta
-
-
+``````
 
 **Nota:** No te preocupes por esta parte del código
 `if __name__ == '__main__':` por el momento.
@@ -117,3 +107,4 @@ incluirla y quedará más claro para que sirve en los siguientes ejercicios.
 Una vez que termines tu actividad y la hayas probado con
 `python -m pytest --tb=short -v`, subela a tu repositorio en GitHub,
 con el proceso de commit + push.
+ef main():
