@@ -16,9 +16,11 @@ if __name__ == '__main__':
 La línea `#escribe tu código abajo de esta línea` es un comentario,
 el programa la va a ignorar al ejecutarse.
 
-Lleva a cabo el análisis, diseño y codificación en lenguaje Python de un programa que
-leea los valores de los coeficientes de las 2 ecuaciones:
-# - a,b,c,d,e y f  
+Lleva a cabo el análisis, diseño y codificación en lenguaje Python aplicando el estandar de programaciòn del curso.
+
+El programa debe
+leer los valores de los coeficientes de las 2 ecuaciones:
+# - a,b,c,d,e,f  
 
 ![Tec de Monterrey](../../images/ecuaciones.png)
 
@@ -26,18 +28,28 @@ El programa debe calcular los valores de  y ,  x con las 2 fórmulas anteriores.
 *  posteriormente  el programa debe desplegar el valor de *x, y*
 
 #### Entradas:
-los coeficinetes de las 2 ecuaciones : a,b,c,d,e y f
+los coeficientes de las 2 ecuaciones : a, b, c, d, e, f  
+
 #### Salidas:
 * Mensajes para ingresar los datos de Entrada
 * Mensajes para desplegar x, y
-#### Procesos:
 
-#### NOTA IMPORTANTE:
+#### Procesos:
+Calcular x, y usando las fórmulas 
+
+#### NOTAS IMPORTANTE:
 * Tu programa debe incluir los mensaje para pedir los datos y
 * la salida debe coincidir exactamente con el formato y/o tipo de dato que se te pide como salida.
+* El programa debe tener estándar de codificación
+* La ejecución correcta vale 20 ptos. esto corresponde a que pasa las pruebas en Github Grading.  
 
-2 Ejemplos de Ejecución del programa:
 
+
+
+
+
+
+Ejemplos de Ejecución del programa:
 
 ```
 Caso 1:

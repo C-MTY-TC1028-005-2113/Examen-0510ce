@@ -40,8 +40,6 @@ El precio es el siguiente para cada tipo de curso:
 - BL  $8,900 DLS c/u
 
 Por este regreso a clases la Secundaria ha decidido  dar el siguiente descuento a foráneos :
-
-<b> alumnos Foraneos </b>:
 - Si su colegiatura es superior o igual a $15,500 e inferior a $65,000 tendrá un 15% de descuento en la colegiatura.
 - Si su colegiatura es superior o igual a $65,000  tendrán un 30% de descuento en la colegiatura.
 
@@ -49,8 +47,8 @@ Por este regreso a clases la Secundaria ha decidido  dar el siguiente descuento 
 # Dentro de la función main() se debe hacer lo siguiente
 
 1. leer el tipo de curso (que son 2 letras mayúsculas, puede ser : UF, BL),
-2. ler el tipo de alumno(que es una letra mayúscula, puede ser L o F)
-3. Verificar si se ingresan datos incorrectos en el tipo de curso o en el tipo de alumno  
+2. leer el tipo de alumno(que es una letra mayúscula, puede ser L o F)
+3. Verificar si se ingresan datos incorrectos en el tipo de curso o en el tipo de alumno (no tienes que verificar las mayúsculas) 
 
    el programa debe desplegar "Datos Incorrectos" y no debe leer la cantidad de cursos.  
 
@@ -66,7 +64,13 @@ Si todos los datos ingresados son correctos el programa debe llamar a la funció
 calcula_colegiatura_con_descuento( ...) que calcula y retorna el total a pagar de colegiatura(ya con despuento si es que aplica)
 el valor de retorno se debe desplegar en formato entero usando la función *round( )* sin decimales.
 
-La salida del programa debe de ser exactamente de la siguiente forma:
+#### NOTAS IMPORTANTE:
+* Tu programa debe incluir los mensaje para pedir los datos y
+* la salida debe coincidir exactamente con el formato y/o tipo de dato que se te pide como salida.
+* El programa debe tener estándar de codificación
+* La ejecución correcta vale 20 ptos. esto corresponde a que pasa las pruebas en Github Grading
+
+
 Casos de ejecución del programa:
 ```
 Caso 1:

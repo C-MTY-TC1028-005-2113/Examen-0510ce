@@ -4,7 +4,7 @@
 # Carrera
 
 def main():
-  # llama a la función sistema_ecuaciones
+  # Escribe tu código
   pass
 
 
