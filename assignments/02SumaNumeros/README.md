@@ -6,7 +6,7 @@ Modifica el programa que se encuentra en la carpeta `src` que se llama
 
 ```python
 def calcula_colegiatura_con_descuento(tipo_curso, cantidad_cursos, tipo_alumno):
-    # función que calcula el total a pagar en base a los datos recibidos en los parámetros
+    # función que calcula el total a pagar en base a los datos recibidos en los parámetros aplicando el descuento en caso de que aplique
 
     # La función retorna el total a pagar ya con el descuento aplicado(solo si aplica)
     pass
@@ -26,7 +26,6 @@ if __name__ == '__main__':
     main()
 ```
 Lleva a cabo el análisis, diseño y codificación en lenguaje Python.
-
 En una secundaria se ofrecen 2 tipos de cursos:
 - UF - UNIDAD_FORMACION
 - BL - BLOQUE
@@ -73,30 +72,29 @@ el valor de retorno se debe desplegar en formato entero usando la función *roun
 
 Casos de ejecución del programa:
 ```
-Caso 1:
 Cursos: UF
 Alumno: F
 Cantidad: 10
 Total $45500 DLS
 
-Caso 2:
+
 Cursos: BL
 Alumno: F
 Cantidad: 10
 Total $62300 DLS
 
-Caso 3:
+
 Cursos: UF
 Alumno: L
 Cantidad: 10
 Total $65000 DLS
 
-Caso 4:
+
 Cursos: juego
 Alumno: inteligente
 Datos Incorrectos
 
-Caso 5:
+
 Cursos: UF
 Alumno: L
 Cantidad: 0
