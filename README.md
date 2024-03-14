@@ -10,6 +10,11 @@ Antes de iniciar -  llena con tu nombre - si realmente te comprometes a lo sigui
 Yo _______________________________________________________, me comprometo a que mi actuación durante esta
 evaluación será siempre regida por la honestidad académica y la responsabilidad 
 
+Yo________________________________________________________, me comprometo a que en 
+la solución del examen solo usaré y aplicaré instrucciones vistas en el curso de lo 
+contrario pido se me asigne un cero de calificación en el examen y se envié un FIA 
+al comité de Integridad Académica.
+
 Yo _______________________________________________________, me comprometo a:
 Realizar con toda honestidad mi examen de TC1028 
 
